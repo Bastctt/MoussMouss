@@ -5,7 +5,7 @@ import Acceuil from '../../Components/Accueil/Acceuil.jsx';
 function RoutesConfig() {
     return (
         <Routes>
-            <Route path="/Acceuil" element={<Acceuil />} />
+            <Route path="/*" element={<Acceuil />} />
         </Routes>
     );
 }

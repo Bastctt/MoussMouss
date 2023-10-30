@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import userTest from '../../Assets/userTest.png';
+import userTest from '../../Assets/3d-illustration-bald-person-with-glasses_23-2149436184.avif';
 
 function Header () {
   return (
@@ -8,7 +8,7 @@ function Header () {
       <span class="material-symbols-outlined">menu</span>
       <span className='logo'>Mousse²</span>
       <span className='userProfil'>
-        <img src={userTest} alt='User Profile'/>
+        <img className='imgUser' src={userTest} alt='User Profile'/>
       </span>
     </nav>
   )
