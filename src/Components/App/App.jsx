@@ -4,6 +4,7 @@ import RoutesConfig from '../../Components/RoutesConfig/RoutesConfig';
 import '../../Style.css/style.css';
 import Loading from '../../Components/Loading/Loading.jsx';
 
+
 function App() {
     const [isLoading, setIsLoading] = useState(true);
 
@@ -14,7 +15,7 @@ function App() {
     useEffect(() => {
         const timerId = setTimeout(() => {
             setIsLoading(false);
-        }, 3000);
+        }, 2500);
 
         return () => {
             clearTimeout(timerId);
