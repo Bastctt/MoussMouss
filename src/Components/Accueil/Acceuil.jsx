@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Acceuil.css';
 import Wash from '../../Assets/iconWash3.png';
 import Header from '../../Components/Header/Header.jsx';
+import Logo from '../../Assets/logotest-removebg-preview.png';
 
 function Acceuil() {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,7 +17,7 @@ function Acceuil() {
       <Header />
         <div className="logo">
         <span class="material-symbols-outlined burger">menu</span>
-        Mousse2
+        <img src={Logo} className="logoMouss" alt='Logo'/>
         </div>
         <div className='container-card'>
           <div className="card-presentation">
