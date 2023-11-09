@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Acceuil.css';
-import Wash from '../../Assets/iconWash3.png';
 import Header from '../../Components/Header/Header.jsx';
-import Logo from '../../Assets/logotest-removebg-preview.png';
+import Logo from '../../Assets/Design sans titre (3).png';
 
 function Acceuil() {
   const [isVisible, setIsVisible] = useState(false);
@@ -23,7 +22,7 @@ function Acceuil() {
           <div className="card-presentation">
           </div>
           <div className='card1-washing'>
-            <img className='icon' alt="icon" src={Wash}/>         
+            <img className='icon' alt="icon" />         
             <p className='card-text'>Washing & Clean </p>
             <button className='card-button'>Take a wash !</button>
           </div>
